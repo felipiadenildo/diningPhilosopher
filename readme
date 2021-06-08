@@ -1,0 +1,27 @@
+USP - UNIVERSIDADE DE SÃO PAULO
+ICMC - INSTITUTO DE CIÊNCIAS MATEMÁTICAS E DE COMPUTAÇÃO
+SISTEMAS OPERACIONAIS I
+
+
+JANTAR DOS FILÓSOFOS USANDO MONITOR EM C
+
+FELIPI ADENILDO SOARES SOUSA
+10438790
+
+Execução:
+	O programa está estruturado em 5 arquivos, são eles:
+		diningPhilosopher.c
+		monitor.c
+		monitor.h
+		Makefile
+		readme
+	Para rodar o código basta executar o comando make, para o Makefile gerar os arquivos executáveis, e logo em seguida executar  “./philosopher” para rodar o executável. 
+
+Desafios e problemas:
+	Solução para o jantar dos filósofos implementada usando monitor;
+	Monitor implementado usando semáforos;
+	Problema de “starvation” resolvido com variáveis de turno correspondentes a cada pauzinho;
+  Resolver “starvation” e “deadlock” foram os maiores desafios;
+	
+Resultado:
+	Os resultados podem ser vistos no console após a execução.
